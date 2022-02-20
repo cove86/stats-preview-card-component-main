@@ -39,9 +39,9 @@ body {
 }
 
 .heading {
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   font-family: "Inter", sans-serif;
-  text-align: center;
+  /* text-align: center; */
   color: hsl(0, 0%, 100%);
 }
 
@@ -50,18 +50,18 @@ body {
 }
 
 .description {
-  width: 80%;
+  width: 100%;
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   color: hsla(0, 0%, 100%, 0.75);
-  text-align: center;
+  /* text-align: center; */
   line-height: 1.2;
 }
 
 .stats-container {
   width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .stat-heading {
