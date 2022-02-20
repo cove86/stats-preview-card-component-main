@@ -40,7 +40,9 @@ body {
 
 .heading {
   font-size: 4.2rem;
+  font-family: "Inter", sans-serif;
   text-align: center;
+  color: hsl(0, 0%, 100%);
 }
 
 .insights {
@@ -49,7 +51,9 @@ body {
 
 .description {
   width: 80%;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
   text-align: center;
   line-height: 1.2;
 }
@@ -60,9 +64,18 @@ body {
   justify-content: space-evenly;
 }
 
-.stat-text {
+.stat-heading {
   font-size: 2.4rem;
   font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats-text {
+  color: hsl(0, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .img-box {
